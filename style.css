@@ -1,0 +1,36 @@
+:root{
+    --magenta: #e625ac
+}
+
+body{
+    font-family: "Moo Lah Lah", sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    font-style: normal;
+    background-image: url('background.jpg');
+}
+
+.keys{
+    gap: 30px;
+    padding:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.save button{
+    cursor: pointer;
+    font-size: 20px;
+    font-family: fantasy;
+    color:aliceblue;
+    border-color: black;
+    border-radius: 8px;
+    padding: 20px 15px;
+    background-color:black;   
+}
